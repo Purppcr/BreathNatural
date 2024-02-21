@@ -1,0 +1,15 @@
+0. Создать проект, все настроить и не забыть подключить все пакеты --- commit: init
+1. Загрузить картинки в /assets/images --- commit: added images
+2. Загрузить иконки в /assets/icons --- commit: added icons
+3. Создать карточку ревью в /components/cards/Review.tsx
+4. Создать широкую карточку в /components/cards/Wide.tsx
+5. Создать обычную карточку товара в /components/cards/Common.tsx
+6. Создать карточку описания проекта в /components/cards/About.tsx
+7. Создать хедер в /components/header/index.tsx
+8. Создать футер в /components/footer/index.tsx
+9. Создать компонент заголовка в /components/heading/index.tsx
+10. Собираем все воедино
+11. Добавление интерактива: свайпер (карусель)
+
+1B2316
+222C1D
