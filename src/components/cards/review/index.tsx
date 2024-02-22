@@ -19,7 +19,7 @@ export default function ReviewCard({ avatar, name, rating }: IProps) {
           </Typography>
           <Rating defaultValue={rating} precision={0.5} readOnly />
           <Typography color="white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </Typography>
         </ReviewContainer>
       </CardContainer>

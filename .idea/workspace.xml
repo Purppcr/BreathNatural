@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0be740f4-f7bc-4946-8035-7698af1465bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/breath-natural-app/package-lock.json" afterDir="false" />
+    <list default="true" id="0be740f4-f7bc-4946-8035-7698af1465bb" name="Changes" comment="added review cards">
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cards/review/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/review/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cards/review/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/review/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cards/wide/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/wide/styled.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cdd0b0a4-c322-40a7-a475-89905ef8ced3" />
+        <option name="url" value="https://github.com/Purppcr/BreathNatural" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,7 +103,7 @@
       <workItem from="1708511879074" duration="16131000" />
       <workItem from="1708583940967" duration="39000" />
       <workItem from="1708584088695" duration="7630000" />
-      <workItem from="1708604403658" duration="4786000" />
+      <workItem from="1708604403658" duration="5190000" />
     </task>
     <task id="LOCAL-00001" summary="init, add assets">
       <option name="closed" value="true" />
@@ -126,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708588415206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added review cards">
+      <option name="closed" value="true" />
+      <created>1708609399871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708609399871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="init, add assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="init, add assets" />
+    <MESSAGE value="added review cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="added review cards" />
   </component>
 </project>

@@ -6,22 +6,18 @@ export const CardContainer = styled(Grid)(() => ({
   borderRadius: "20px",
   background: "rgba(255, 255, 255, 0.05)",
   padding: "10px 20px",
-  minHeight: "150px",
-  minWidth: "150px",
-  maxWidth: "300px",
-  MaxHeight: "300px",
+  maxWidth: "250px",
+  MaxHeight: "250px",
   backdropFilter: "blur(10px)",
 }));
 
 export const ReviewContainer = styled(Grid)(() => ({
-
-
-  flexDirection: "row",
+  height: "100%",
+  display: "flex",
+  flexDirection: "column",
   justifyContent: "center",
 }));
 export const ReviewerAvatar = styled(Avatar)(() => ({
-  flexDirection: "row",
-  justifyContent: "left",
   minHeignt: "80px",
   minWidth: "80px"
 }));
