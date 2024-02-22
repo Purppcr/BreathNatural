@@ -1,13 +1,22 @@
 import React from 'react';
-import './App.css';
-
+import {Box} from "@mui/material";
+import BackgroundPlant from "./components/assets/images/backgroundPlant.png"
+import Review from "./components/cards/Review";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+      <Box
+          sx={{
+              position: "absolute",
+              width: "100%",
+              height: "100%",
+              backgroundImage: `url(${BackgroundPlant})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+          }}>
 
-      </header>
-    </div>
+        <Review />
+   </Box>
   );
 }
 
