@@ -1,27 +1,28 @@
-import ReviewAvatar1 from "./assets/images/groupPlant1.png";
-import ReviewAvatar2 from "./assets/images/groupPlant2.png";
+import ReviewAvatar1 from "./assets/images/ReviewAvatar1.png";
+import ReviewAvatar2 from "./assets/images/ReviewAvatar2.png";
+import ReviewAvatar3 from "./assets/images/ReviewAvatar3.png";
 
 import wideCardImage1 from "./assets/images/bigCardPlant.png";
 import wideCardImage2 from "./assets/images/bigCardPlant2.png";
 
 export const reviews = [
   {
-    image: ReviewAvatar1,
+    avatar: ReviewAvatar1,
     name: "Max",
-    rating: 4.7,
+    rating: 5,
     text: "Lorem Ipsum",
   },
   {
-    image: ReviewAvatar2,
+    avatar: ReviewAvatar2,
     name: "Sasha",
-    rating: 3.7,
+    rating: 3.5,
     text: "Lorem Ipsum 2",
   },
   {
-    image: ReviewAvatar2,
+    avatar: ReviewAvatar3,
     name: "Alex",
-    rating: 3.7,
-    text: "Lorem Ipsum 2",
+    rating: 4.5,
+    text: "Lorem Ipsum 3",
   },
 ];
 

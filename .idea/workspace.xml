@@ -4,27 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0be740f4-f7bc-4946-8035-7698af1465bb" name="Changes" comment="init, add assets">
-      <change afterPath="$PROJECT_DIR$/breath-natural-app/src/components/cards/Review.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/breath-natural-app/src/components/cards/StyledCard.tsx" afterDir="false" />
+    <list default="true" id="0be740f4-f7bc-4946-8035-7698af1465bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/breath-natural-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/icons/headerlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/icons/headerlogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/icons/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/icons/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/Rose Gold Feminine Calligraphy Monogram Logo(15) 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/ReviewPlant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/aboutUsPlant.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/aboutUsPlant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/backgroundPlant.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/backgroundPlant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/bigCardPlant.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/bigCardPlant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/bigCardPlant2.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/bigCardPlant2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/groupPlant.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/groupPlant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/groupPlant2.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/groupPlant2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/groupPlant3.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/groupPlant3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/groupPlant4.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/groupPlant4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/groupPlant5.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/groupPlant5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/assets/images/groupPlant6.png" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/components/assets/images/groupPlant6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/breath-natural-app/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cards/review/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/review/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cards/review/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/review/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cards/wide/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/wide/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +46,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start (1).executor&quot;: &quot;Run&quot;,
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/DABukatin/IdeaProjects/Breath-app/breath-natural-app/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/DABukatin/IdeaProjects/Breath-app/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,7 +61,17 @@
       <recent name="$PROJECT_DIR$/breath-natural-app/src/components" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start (1)">
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/breath-natural-app/package.json" />
       <command value="run" />
@@ -85,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -99,7 +99,8 @@
       <updated>1708511878044</updated>
       <workItem from="1708511879074" duration="16131000" />
       <workItem from="1708583940967" duration="39000" />
-      <workItem from="1708584088695" duration="582000" />
+      <workItem from="1708584088695" duration="7630000" />
+      <workItem from="1708604403658" duration="4786000" />
     </task>
     <task id="LOCAL-00001" summary="init, add assets">
       <option name="closed" value="true" />
@@ -117,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708515259598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init, add assets">
+      <option name="closed" value="true" />
+      <created>1708588415206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708588415206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

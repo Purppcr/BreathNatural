@@ -1,26 +1,28 @@
-import { Button, CardContent, CardMedia, Paper } from "@mui/material";
-import { StyledCard } from "./styled";
+import {Paper, Rating, Typography} from "@mui/material";
+import {CardContainer, ReviewContainer, ReviewerAvatar} from "./styled";
 
 type IProps = {
-  image: string;
+  avatar: string;
   name: string;
   rating: number;
   text: string;
 };
 
-export default function ReviewCard({ image, name, rating, text }: IProps) {
+export default function ReviewCard({ avatar, name, rating }: IProps) {
   return (
-    <Paper elevation={10}>
-      <StyledCard>
-        <CardMedia component="img" src={image} />
-        <CardContent>
-          <h5>{name}</h5>
-          <h3>{rating}</h3>
-        </CardContent>
-        <Button variant="outlined" size="small">
-          Buy Now
-        </Button>
-      </StyledCard>
+    <Paper elevation={10} sx={{ background: "none", borderRadius: "20px" }}>
+      <CardContainer>
+        <ReviewContainer>
+          <ReviewerAvatar src={avatar} />
+          <Typography color="white">
+            {name}
+          </Typography>
+          <Rating defaultValue={rating} precision={0.5} readOnly />
+          <Typography color="white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          </Typography>
+        </ReviewContainer>
+      </CardContainer>
     </Paper>
   );
 }
