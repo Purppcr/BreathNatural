@@ -1,4 +1,4 @@
-import {Avatar, Grid, styled} from "@mui/material";
+import { Grid, styled } from "@mui/material";
 
 export const CardContainer = styled(Grid)(() => ({
   position: "relative",
@@ -17,13 +17,3 @@ export const ReviewContainer = styled(Grid)(() => ({
   flexDirection: "column",
   justifyContent: "center",
 }));
-export const ReviewerAvatar = styled(Avatar)(() => ({
-  minHeignt: "80px",
-  minWidth: "80px"
-}));
-
-// export const Rating = styled(Avatar)(() => ({
-//   position: "relative",
-//   placement: "left",
-//
-// }));
