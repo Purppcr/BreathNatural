@@ -5,6 +5,14 @@ import ReviewAvatar3 from "./assets/images/ReviewAvatar3.png";
 import wideCardImage1 from "./assets/images/bigCardPlant.png";
 import wideCardImage2 from "./assets/images/bigCardPlant2.png";
 
+import commonCard1 from "./assets/images/groupPlant1.png"
+import commonCard2 from "./assets/images/groupPlant4.png"
+import commonCard3 from "./assets/images/groupPlant1.png"
+import commonCard4 from "./assets/images/groupPlant4.png"
+import commonCard5 from "./assets/images/groupPlant1.png"
+import commonCard6 from "./assets/images/groupPlant4.png"
+
+
 export const reviews = [
   {
     avatar: ReviewAvatar1,
@@ -42,3 +50,41 @@ export const wideCards = [
     price: 579,
   },
 ];
+export const commonCard = [
+  {
+    image: commonCard1,
+    title: "Calathea plant",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    price: 359,
+  },
+  {
+    image: commonCard2,
+    title: "Calathea plant",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    price: 359,
+  },
+  {
+    image: commonCard3,
+    title: "Calathea plant",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    price: 359,
+  },
+  {
+    image: commonCard4,
+    title: "Calathea plant",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    price: 359,
+  },
+  {
+    image: commonCard5,
+    title: "Calathea plant",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    price: 359,
+  },
+  {
+    image: commonCard6,
+    title: "Calathea plant",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    price: 359,
+  }
+]

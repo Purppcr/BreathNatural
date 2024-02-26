@@ -18,3 +18,16 @@ export const IconButton = styled(ButtonBase)(() => ({
 ButtonBase.defaultProps = {
   variant: "outlined",
 };
+
+
+export const MiniIconButton = styled(ButtonBase)(() => ({
+  padding: "0",
+  borderRadius: "7px",
+  minWidth: "35px",
+  minHeight: "35px",
+  border: "1px solid white",
+}));
+
+ButtonBase.defaultProps = {
+  variant: "outlined",
+};

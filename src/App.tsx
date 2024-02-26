@@ -1,13 +1,14 @@
-import { Box, Grid } from "@mui/material";
+import {Box, Grid} from "@mui/material";
 import ReviewCard from "./components/cards/review";
-import { reviews, wideCards } from "./constants";
-import { AppContainer } from "./styled";
+import {commonCard, reviews, wideCards} from "./constants";
+import {AppContainer} from "./styled";
 import WideCard from "./components/cards/wide";
+import CommonCard from "./components/cards/common";
 
 function App() {
-  return (
-    <AppContainer>
-      {/* <Grid container flexDirection="column" gap={10} marginBottom={10}>
+    return (
+        <AppContainer>
+            {/* <Grid container flexDirection="column" gap={10} marginBottom={10}>
         {wideCards.map((card, index) => (
           <WideCard
             {...card}
@@ -16,13 +17,18 @@ function App() {
           />
         ))}
       </Grid> */}
-      <Grid container justifyContent="space-between">
-        {reviews.map((review) => (
-          <ReviewCard {...review} />
-        ))}
-      </Grid>
-    </AppContainer>
-  );
+            {/*<Grid container justifyContent="space-between">*/}
+            {/*    {reviews.map((review) => (*/}
+            {/*        <ReviewCard {...review} />*/}
+            {/*    ))}*/}
+            {/*</Grid>*/}
+            <Grid container>
+                {commonCard.map((common) => (
+                    <CommonCard {...common} />
+                ))}
+            </Grid>
+        </AppContainer>
+    );
 }
 
 export default App;

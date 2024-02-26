@@ -1,9 +1,9 @@
-0. Создать проект, все настроить и не забыть подключить все пакеты --- commit: init
-1. Загрузить картинки в /assets/images --- commit: added images
-2. Загрузить иконки в /assets/icons --- commit: added icons
-3. Создать карточку ревью в /components/cards/Review.tsx
-4. Создать широкую карточку в /components/cards/Wide.tsx
-5. Создать обычную карточку товара в /components/cards/Common.tsx
+0. Создать проект, все настроить и не забыть подключить все пакеты / Done /
+1. Загрузить картинки в /assets/images --- commit: added images / Done /
+2. Загрузить иконки в /assets/icons --- commit: added icons / Done /
+3. Создать карточку ревью в /components/cards/Review.tsx / Done /
+4. Создать широкую карточку в /components/cards/Wide.tsx / Done /
+5. Создать обычную карточку товара в /components/cards/Common.tsx / Done /
 6. Создать карточку описания проекта в /components/cards/About.tsx
 7. Создать хедер в /components/header/index.tsx
 8. Создать футер в /components/footer/index.tsx

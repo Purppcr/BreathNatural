@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0be740f4-f7bc-4946-8035-7698af1465bb" name="Changes" comment="added review cards">
+    <list default="true" id="0be740f4-f7bc-4946-8035-7698af1465bb" name="Changes" comment="added review images">
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cards/review/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/review/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/common/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/common/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/groupPlant1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/groupPlant1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/groupPlant2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/groupPlant2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/groupPlant3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/groupPlant3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/groupPlant4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/groupPlant4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/groupPlant5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/groupPlant5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/groupPlant6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/groupPlant6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/styled.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cards/review/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/review/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Purppcr&quot;
+  }
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -43,7 +60,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/DABukatin/IdeaProjects/Breath-app/breath-natural-app/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/DABukatin/IdeaProjects/Breath-app/src/components/cards/Common&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,9 +75,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/cards/Common" />
       <recent name="$PROJECT_DIR$/breath-natural-app/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/cards/Common" />
       <recent name="$PROJECT_DIR$/breath-natural-app/src/components" />
     </key>
   </component>
@@ -103,7 +122,9 @@
       <workItem from="1708511879074" duration="16131000" />
       <workItem from="1708583940967" duration="39000" />
       <workItem from="1708584088695" duration="7630000" />
-      <workItem from="1708604403658" duration="5190000" />
+      <workItem from="1708604403658" duration="11014000" />
+      <workItem from="1708928997499" duration="587000" />
+      <workItem from="1708939966076" duration="5928000" />
     </task>
     <task id="LOCAL-00001" summary="init, add assets">
       <option name="closed" value="true" />
@@ -137,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708609399871</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix review cards">
+      <option name="closed" value="true" />
+      <created>1708609831299</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708609831299</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added review images">
+      <option name="closed" value="true" />
+      <created>1708612554147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708612554147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +195,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="init, add assets" />
     <MESSAGE value="added review cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="added review cards" />
+    <MESSAGE value="fix review cards" />
+    <MESSAGE value="added review images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added review images" />
   </component>
 </project>
