@@ -11,10 +11,6 @@ export const CardContainer = styled(Grid)(() => ({
   backdropFilter: "blur(10px)",
 }));
 
-export const CardPaper = styled(Paper)(() => ({
-
-}));
-
 export const CardContent = styled(Grid)(() => ({
   height: "100%",
 }));

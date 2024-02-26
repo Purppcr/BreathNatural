@@ -8,6 +8,7 @@ import commonCard4 from "./assets/images/groupPlant4.png"
 import commonCard5 from "./assets/images/groupPlant1.png"
 import commonCard6 from "./assets/images/groupPlant4.png"
 
+import aboutUsImg from "./assets/images/AboutUsPlant.svg"
 
 export const reviews = [
   {
@@ -85,5 +86,14 @@ export const commonCard = [
     title: "Calathea plant",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     price: 359,
+  }
+]
+
+export const aboutUsCard = [
+  {
+    image: aboutUsImg,
+    title: "We Have Small And Best O2 Plants Collection’s",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    moreInfo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
   }
 ]

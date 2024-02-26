@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0be740f4-f7bc-4946-8035-7698af1465bb" name="Changes" comment="added common product card">
-      <change beforePath="$PROJECT_DIR$/breath-natural-app/package-lock.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/aboutUs/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/aboutUs/styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ReviewAvatar1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ReviewAvatar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ReviewAvatar3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ReviewAvatar4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cards/review/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/review/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cards/common/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/common/styled.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cards/review/styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/review/styled.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
     </list>
@@ -53,7 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/DABukatin/IdeaProjects/Breath-app/src/components/cards/Common",
     "node.js.detected.package.eslint": "true",
@@ -119,7 +117,7 @@
       <workItem from="1708584088695" duration="7630000" />
       <workItem from="1708604403658" duration="11014000" />
       <workItem from="1708928997499" duration="587000" />
-      <workItem from="1708939966076" duration="6273000" />
+      <workItem from="1708939966076" duration="11423000" />
     </task>
     <task id="LOCAL-00001" summary="init, add assets">
       <option name="closed" value="true" />
@@ -177,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708947006356</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added common product card">
+      <option name="closed" value="true" />
+      <created>1708947465613</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708947465613</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
