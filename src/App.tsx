@@ -17,11 +17,11 @@ function App() {
           />
         ))}
       </Grid> */}
-            {/*<Grid container justifyContent="space-between">*/}
-            {/*    {reviews.map((review) => (*/}
-            {/*        <ReviewCard {...review} />*/}
-            {/*    ))}*/}
-            {/*</Grid>*/}
+            <Grid container justifyContent="space-between">
+                {reviews.map((review) => (
+                    <ReviewCard {...review} />
+                ))}
+            </Grid>
             <Grid container>
                 {commonCard.map((common) => (
                     <CommonCard {...common} />

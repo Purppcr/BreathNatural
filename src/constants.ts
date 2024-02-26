@@ -1,7 +1,3 @@
-import ReviewAvatar1 from "./assets/images/ReviewAvatar1.png";
-import ReviewAvatar2 from "./assets/images/ReviewAvatar2.png";
-import ReviewAvatar3 from "./assets/images/ReviewAvatar3.png";
-
 import wideCardImage1 from "./assets/images/bigCardPlant.png";
 import wideCardImage2 from "./assets/images/bigCardPlant2.png";
 
@@ -15,20 +11,23 @@ import commonCard6 from "./assets/images/groupPlant4.png"
 
 export const reviews = [
   {
-    avatar: ReviewAvatar1,
-    name: "Max",
+    avatar:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=64&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Max Korz",
     rating: 5,
     text: "Lorem Ipsum",
   },
   {
-    avatar: ReviewAvatar2,
-    name: "Sasha",
+    avatar:
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=64&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Sasha Pushnoy",
     rating: 3.5,
     text: "Lorem Ipsum 2",
   },
   {
-    avatar: ReviewAvatar3,
-    name: "Alex",
+    avatar:
+      "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=64&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Alex KKK",
     rating: 4.5,
     text: "Lorem Ipsum 3",
   },

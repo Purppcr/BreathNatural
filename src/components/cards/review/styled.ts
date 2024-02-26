@@ -18,7 +18,8 @@ export const ReviewContainer = styled(Grid)(() => ({
   justifyContent: "center",
 }));
 export const ReviewerAvatar = styled(Avatar)(() => ({
-
+  minHeignt: "80px",
+  minWidth: "80px"
 }));
 
 // export const Rating = styled(Avatar)(() => ({
