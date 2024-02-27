@@ -1,9 +1,5 @@
-import {FooterContainer} from "./styled";
+import { FooterContainer } from "./styled";
 
-export default function Footer () {
-    return (
-        <FooterContainer>
-
-        </FooterContainer>
-    )
+export default function Footer() {
+  return <FooterContainer>FOOTER</FooterContainer>;
 }

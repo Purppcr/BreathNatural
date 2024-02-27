@@ -1,46 +1,48 @@
-import {HeaderBar, HeaderContent, HeaderList, HeaderListItem} from "./styled";
-import Logo from ".//logo.png";
-import {Box} from "@mui/system";
-import {IconButton, Typography} from "@mui/material";
+import { HeaderBar, HeaderContent, HeaderList, HeaderListItem } from "./styled";
+import Logo from "../../assets/icons/logo.png";
+import { Box } from "@mui/system";
+import { Grid, IconButton, ListItemButton, Typography } from "@mui/material";
 
-import SearchIcon from '@mui/icons-material/Search';
-import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
-import MenuIcon from '@mui/icons-material/Menu';
+import SearchIcon from "@mui/icons-material/Search";
+import LocalMallOutlinedIcon from "@mui/icons-material/LocalMallOutlined";
+import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Header() {
-    return (
-        <HeaderBar>
-            <HeaderContent container>
-                <Box component="img" src={Logo} sx={{maxWidth: "40px"}}></Box>
-                <Typography fontWeight={"bold"} variant={"h5"} color={"white"}>
-                    Planto.
-                </Typography>
-                <HeaderList>
-                    <HeaderListItem>
-                        Home
-                    </HeaderListItem>
-                    <HeaderListItem>
-                        Plants Type
-                    </HeaderListItem>
-                    <HeaderListItem>
-                        More
-                    </HeaderListItem>
-                    <HeaderListItem>
-                        Contact
-                    </HeaderListItem>
-                </HeaderList>
-                <HeaderContent >
-                    <IconButton sx={{color: "white"}}>
-                        <SearchIcon/>
-                    </IconButton>
-                    <IconButton sx={{color: "white"}}>
-                        <LocalMallOutlinedIcon/>
-                    </IconButton>
-                    <IconButton sx={{color: "white"}}>
-                        <MenuIcon/>
-                    </IconButton>
-                </HeaderContent>
-            </HeaderContent>
-        </HeaderBar>
-    )
+  return (
+    <HeaderBar>
+      <Grid container padding="0" justifyContent="space-between">
+        <Grid container width="auto" alignItems="flex-end" columnGap="1rem">
+          <Box component="img" src={Logo} sx={{ maxWidth: "40px" }}></Box>
+          <Typography fontWeight={"bold"} variant={"h5"} color={"white"}>
+            Planto.
+          </Typography>
+        </Grid>
+        <HeaderList>
+          <HeaderListItem>
+            <ListItemButton>Home</ListItemButton>
+          </HeaderListItem>
+          <HeaderListItem>
+            <ListItemButton>Plants Type</ListItemButton>
+          </HeaderListItem>
+          <HeaderListItem>
+            <ListItemButton>More</ListItemButton>
+          </HeaderListItem>
+          <HeaderListItem>
+            <ListItemButton>Contact</ListItemButton>
+          </HeaderListItem>
+        </HeaderList>
+        <HeaderContent>
+          <IconButton>
+            <SearchIcon />
+          </IconButton>
+          <IconButton>
+            <LocalMallOutlinedIcon />
+          </IconButton>
+          <IconButton>
+            <MenuIcon />
+          </IconButton>
+        </HeaderContent>
+      </Grid>
+    </HeaderBar>
+  );
 }
