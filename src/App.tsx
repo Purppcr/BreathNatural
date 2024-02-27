@@ -5,10 +5,13 @@ import {AppContainer} from "./styled";
 import WideCard from "./components/cards/wide";
 import CommonCard from "./components/cards/common";
 import AboutUsCard from "./components/cards/aboutUs";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 function App() {
     return (
         <AppContainer>
+            <Header/>
             {/*<Grid container flexDirection="column" gap={10} marginBottom={10}>*/}
             {/*    {wideCards.map((card, index) => (*/}
             {/*        <WideCard*/}
@@ -28,11 +31,12 @@ function App() {
             {/*        <CommonCard {...common} />*/}
             {/*    ))}*/}
             {/*</Grid>*/}
-            <Grid container justifyContent="center">
-                {aboutUsCard.map((about) => (
-                    <AboutUsCard {...about} />
-                ))}
-            </Grid>
+            {/*<Grid container justifyContent="center">*/}
+            {/*    {aboutUsCard.map((about) => (*/}
+            {/*        <AboutUsCard {...about} />*/}
+            {/*    ))}*/}
+            {/*</Grid>*/}
+            <Footer/>
         </AppContainer>
     );
 }

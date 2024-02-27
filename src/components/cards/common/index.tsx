@@ -27,8 +27,8 @@ export default function CommonCard({image, title, description, price}: IProps) {
                             <Typography variant="h5" color="white">
                                 Rs.{price} /-
                             </Typography>
-                            <MiniIconButton>
-                                <LocalMallOutlinedIcon/>
+                            <MiniIconButton >
+                                <LocalMallOutlinedIcon sx={{fontSize: "medium"}}/>
                             </MiniIconButton>
                         </Grid>
                     </CardContent>

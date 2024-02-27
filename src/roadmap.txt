@@ -4,7 +4,7 @@
 3. Создать карточку ревью в /components/cards/Review.tsx / Done /
 4. Создать широкую карточку в /components/cards/Wide.tsx / Done /
 5. Создать обычную карточку товара в /components/cards/Common.tsx / Done /
-6. Создать карточку описания проекта в /components/cards/About.tsx
+6. Создать карточку описания проекта в /components/cards/About.tsx / Done /
 7. Создать хедер в /components/header/index.tsx
 8. Создать футер в /components/footer/index.tsx
 9. Создать компонент заголовка в /components/heading/index.tsx
