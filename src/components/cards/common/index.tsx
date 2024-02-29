@@ -2,6 +2,7 @@ import { Grid, Paper, Typography } from "@mui/material";
 import { CardContainer, CardContent, Image } from "./styled";
 import LocalMallOutlinedIcon from "@mui/icons-material/LocalMallOutlined";
 import { MiniIconButton } from "../../buttons/styled";
+import {Title} from "../../title/styled";
 
 type IProps = {
   image: string;
@@ -20,7 +21,7 @@ export default function CommonCard({
     <Grid>
       <Paper
         elevation={10}
-        sx={{ background: "none", borderRadius: "30px", maxWidth: "300px" }}
+        sx={{ background: "none", borderRadius: "50px" }}
       >
         <CardContainer>
           <Image src={image} />

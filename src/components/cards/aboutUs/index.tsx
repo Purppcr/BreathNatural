@@ -15,11 +15,10 @@ export default function AboutUsCard({
   moreInfo,
 }: IProps) {
   return (
-    <Paper elevation={10} sx={{ background: "none", borderRadius: "30px" }}>
       <CardContainer>
         <Image src={image} />
         <Grid></Grid>
-        <CardContent>
+        <CardContent padding={10}>
           <Typography variant="h5" mb={3} color="white">
             {title}
           </Typography>
@@ -32,6 +31,5 @@ export default function AboutUsCard({
           <TextButton>Explore</TextButton>
         </CardContent>
       </CardContainer>
-    </Paper>
   );
 }

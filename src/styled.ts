@@ -7,7 +7,6 @@ export const Wrapper = styled(Box)(() => ({
   backgroundSize: "contain",
   backgroundRepeat: "no-repeat",
   backgroundColor: "#1c2316",
-  minHeight: "200vh", // must be removed
 }));
 
 export const Container = styled(Box)(() => ({

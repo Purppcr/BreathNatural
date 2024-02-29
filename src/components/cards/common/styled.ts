@@ -4,9 +4,9 @@ import {Grid, Paper} from "@mui/material";
 export const CardContainer = styled(Grid)(() => ({
   position: "relative",
   display: "grid",
-  borderRadius: "30px",
+  borderRadius: "50px",
   background: "rgba(255, 255, 255, 0.05)",
-  padding: "170px 30px 30px 30px",
+  padding: "170px 50px 30px 45px",
   maxWidth: "300px",
 }));
 

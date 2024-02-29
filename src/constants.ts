@@ -14,21 +14,21 @@ export const reviews = [
   {
     avatar:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=64&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Max Korz",
+    name: "Anna Darko",
     rating: 5,
     text: "Lorem Ipsum",
   },
   {
     avatar:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=64&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Sasha Pushnoy",
+    name: "Alexandra k",
     rating: 3.5,
     text: "Lorem Ipsum 2",
   },
   {
     avatar:
       "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=64&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Alex KKK",
+    name: "Alex Abram",
     rating: 4.5,
     text: "Lorem Ipsum 3",
   },
@@ -94,6 +94,6 @@ export const aboutUsCard = [
     image: aboutUsImg,
     title: "We Have Small And Best O2 Plants Collection’s",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    moreInfo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    moreInfo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   }
 ]

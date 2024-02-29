@@ -5,7 +5,9 @@ export const CardContainer = styled(Grid)(() => ({
   display: "grid",
   borderRadius: "20px",
   background: "rgba(255, 255, 255, 0.05)",
-  padding: "10px 20px",
+  padding: "35px 25px",
+  minWidth: "300px",
+  gap: "2",
 }));
 
 export const ReviewContainer = styled(Grid)(() => ({

@@ -10,13 +10,14 @@ export const CardContainer = styled(Grid)(() => ({
     background: "rgba(255, 255, 255, 0.05)",
     padding: "50px 20px 35px 20px",
     backdropFilter: "blur(10px)",
+    minWidth: "1360px",
 }));
 
 export const Image = styled('img')(() => ({
     position: "absolute",
-    top: "-189px",
-    height: "600px",
-    left: "-3%"
+    top: "-250px",
+    height: "800px",
+    left: "3%"
 }));
 
 export const CardContent = styled(Grid)(() => ({

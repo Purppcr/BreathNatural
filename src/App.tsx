@@ -8,6 +8,7 @@ import AboutUsCard from "./components/cards/aboutUs";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Heading from "./components/heading";
+import {Title} from "./components/title/styled";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Container>
                 <Header/>
                 <Heading/>
+                <Title variant="h4" mb={10}>Our Trendy plants</Title>
                 <Grid container flexDirection="column" gap={10} marginBottom={10}>
                     {wideCards.map((card, index) => (
                         <WideCard
@@ -24,28 +26,37 @@ function App() {
                         />
                     ))}
                 </Grid>
+                <Title variant="h4" mb={20}>Our Top Selling</Title>
                 <Grid
                     display="grid"
                     gridTemplateColumns="repeat(3, auto)"
                     justifyItems="center"
-                    rowGap="10rem"
+                    rowGap="7rem"
                 >
                     {commonCard.map((common) => (
                         <CommonCard {...common} key={common.title}/>
                     ))}
                 </Grid>
-                <Grid container justifyContent="space-between">
+                <Title variant="h4" mb={10} mt={10}>Customer Review</Title>
+                <Grid
+                    display="grid"
+                    gridTemplateColumns="repeat(3, auto)"
+                    justifyItems="center"
+                    gap="3rem"
+                    mb={10}
+                >
                     {reviews.map((review) => (
                         <ReviewCard {...review} key={review.name}/>
                     ))}
                 </Grid>
-                <Grid container justifyContent="center">
+                <Title variant="h4" mb={10} mt={10}>Our Best o2</Title>
+                <Grid container justifyContent="center" mb={10}>
                     {aboutUsCard.map((about) => (
                         <AboutUsCard {...about} key={about.title}/>
                     ))}
                 </Grid>
-                <Footer/>
             </Container>
+            <Footer/>
         </Wrapper>
     );
 }
