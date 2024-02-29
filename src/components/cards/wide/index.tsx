@@ -34,7 +34,7 @@ export default function WideCard({
             Rs.{price} /-
           </Typography>
           <Grid container gap={2}>
-            <TextButton>Explore</TextButton>
+            <TextButton>Buy Now</TextButton>
             <IconButton>
               <LocalMallOutlinedIcon />
             </IconButton>

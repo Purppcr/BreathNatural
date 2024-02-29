@@ -6,7 +6,7 @@ export const HeaderBar = styled("header")(() => ({
   backdropFilter: "blur(10px)",
   borderRadius: "15px",
   padding: "15px 10px 15px 20px",
-  position: "sticky",
+  // position: "sticky",
   top: "2rem",
   zIndex: "1000",
 }));

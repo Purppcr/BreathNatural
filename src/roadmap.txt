@@ -5,11 +5,13 @@
 4. Создать широкую карточку в /components/cards/Wide.tsx / Done /
 5. Создать обычную карточку товара в /components/cards/Common.tsx / Done /
 6. Создать карточку описания проекта в /components/cards/About.tsx / Done /
-7. Создать хедер в /components/header/index.tsx
-8. Создать футер в /components/footer/index.tsx
-9. Создать компонент заголовка в /components/heading/index.tsx
+7. Создать хедер в /components/header/productSwiper.tsx / Done /
+8. Создать футер в /components/footer/productSwiper.tsx / Done /
+9. Создать компонент заголовка в /components/heading/productSwiper.tsx
 10. Собираем все воедино
 11. Добавление интерактива: свайпер (карусель)
 
 1B2316
 222C1D
+
+rgba(85, 176, 0, 1)

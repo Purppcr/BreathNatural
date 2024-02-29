@@ -1,11 +1,32 @@
 import {styled} from "@mui/system";
-import {Grid} from "@mui/material";
+import {Button, Grid, ListItem} from "@mui/material";
 
 export const FooterContainer = styled(Grid)(() => ({
-    position: "relative",
     display: "grid",
-    width: '100%',
-    gridTemplateColumns: "25 25 25 25",
+    justifyContent: "center",
+    gridTemplateColumns: "33% 33% 33%",
     background: "#222C1D",
-    padding: "10 10px",
+    padding: "30px 30px 30px 30px",
+}));
+
+export const FooterListItem = styled(ListItem)(() => ({
+    paddingTop: "0",
+    paddingBottom: "0",
+
+    "& .MuiListItemButton-root": {
+        minWidth: "max-content",
+
+        "&:hover": {
+            background: "green",
+        },
+    },
+}));
+
+export const FooterButton = styled(Button)(() => ({
+    variant: "contained",
+    color: "black",
+    backgroundColor: "white",
+    "&:hover": {
+        background: "green",
+    }
 }));
