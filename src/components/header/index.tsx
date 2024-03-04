@@ -1,13 +1,26 @@
-import { HeaderBar, HeaderContent, HeaderList, HeaderListItem } from "./styled";
+import {DropListItem, HeaderBar, HeaderContent, HeaderList, HeaderListItem} from "./styled";
 import Logo from "../../assets/icons/logo.png";
 import { Box } from "@mui/system";
-import { Grid, IconButton, ListItemButton, Typography } from "@mui/material";
+import {
+  Grid,
+  IconButton,
+  ListItemButton,
+  Select, SelectChangeEvent,
+  Typography
+} from "@mui/material";
 
 import SearchIcon from "@mui/icons-material/Search";
 import LocalMallOutlinedIcon from "@mui/icons-material/LocalMallOutlined";
 import MenuIcon from "@mui/icons-material/Menu";
+import {useState} from "react";
 
 export default function Header() {
+  const [age, setAge] = useState('');
+
+  const handleChange = (event: SelectChangeEvent) => {
+    setAge(event.target.value);
+  };
+
   return (
     <HeaderBar>
       <Grid container padding="0" justifyContent="space-between">
@@ -22,7 +35,9 @@ export default function Header() {
             <ListItemButton>Home</ListItemButton>
           </HeaderListItem>
           <HeaderListItem>
-            <ListItemButton>Plants Type</ListItemButton>
+              <Select value="Plant Type" label="Plant Type">
+                <DropListItem>ziza plant</DropListItem>
+              </Select>
           </HeaderListItem>
           <HeaderListItem>
             <ListItemButton>More</ListItemButton>

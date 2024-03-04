@@ -10,7 +10,6 @@ type IProps = {
 
 export default function ReviewCard({avatar, name, rating}: IProps) {
     return (
-
         <Paper elevation={10} sx={{background: "none", borderRadius: "20px", maxWidth: "300px"}}>
             <CardContainer>
                 <ReviewContainer>
@@ -29,6 +28,5 @@ export default function ReviewCard({avatar, name, rating}: IProps) {
                 </ReviewContainer>
             </CardContainer>
         </Paper>
-
     );
 }

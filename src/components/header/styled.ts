@@ -28,6 +28,11 @@ export const HeaderList = styled(List)(() => ({
   padding: "0",
 }));
 
+export const DropListItem = styled(List)(() => ({
+  background: "rgba(255, 255, 255, 0.05)",
+  backdropFilter: "blur(10px)",
+}));
+
 export const HeaderListItem = styled(ListItem)(() => ({
   paddingTop: "0",
   paddingBottom: "0",
